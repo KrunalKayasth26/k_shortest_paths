@@ -1,0 +1,547 @@
+Source,Destination,Path Rank,Path,Total Cost
+Mumbai,Delhi,1,Mumbai -> Bengaluru -> Chennai -> Delhi,75
+Mumbai,Delhi,2,Mumbai -> Delhi,91
+Mumbai,Delhi,3,Mumbai -> Bengaluru -> Hyderabad -> Delhi,110
+Mumbai,Bengaluru,1,Mumbai -> Bengaluru,24
+Mumbai,Bengaluru,2,Mumbai -> Delhi -> Chennai -> Bengaluru,142
+Mumbai,Bengaluru,3,Mumbai -> Delhi -> Hyderabad -> Bengaluru,177
+Mumbai,Chennai,1,Mumbai -> Bengaluru -> Chennai,62
+Mumbai,Chennai,2,Mumbai -> Delhi -> Chennai,104
+Mumbai,Chennai,3,Mumbai -> Bengaluru -> Hyderabad -> Delhi -> Chennai,123
+Mumbai,Kolkata,1,Mumbai -> Bengaluru -> Hyderabad -> Kolkata,92
+Mumbai,Kolkata,2,Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad -> Kolkata,147
+Mumbai,Kolkata,3,Mumbai -> Delhi -> Hyderabad -> Kolkata,163
+Mumbai,Hyderabad,1,Mumbai -> Bengaluru -> Hyderabad,65
+Mumbai,Hyderabad,2,Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad,120
+Mumbai,Hyderabad,3,Mumbai -> Delhi -> Hyderabad,136
+Mumbai,Ahmedabad,1,Mumbai -> Indore -> Nagpur -> Lucknow -> Ahmedabad,156
+Mumbai,Ahmedabad,2,Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur -> Ahmedabad,156
+Mumbai,Ahmedabad,3,Mumbai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad,171
+Mumbai,Pune,1,Mumbai -> Bengaluru -> Hyderabad -> Pune,88
+Mumbai,Pune,2,Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad -> Pune,143
+Mumbai,Pune,3,Mumbai -> Indore -> Visakhapatnam -> Pune,150
+Mumbai,Jaipur,1,Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur,135
+Mumbai,Jaipur,2,Mumbai -> Indore -> Nagpur -> Lucknow -> Ahmedabad -> Jaipur,177
+Mumbai,Jaipur,3,Mumbai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,192
+Mumbai,Lucknow,1,Mumbai -> Indore -> Nagpur -> Lucknow,71
+Mumbai,Lucknow,2,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow,189
+Mumbai,Lucknow,3,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow,235
+Mumbai,Kanpur,1,Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,85
+Mumbai,Kanpur,2,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur,175
+Mumbai,Kanpur,3,Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad -> Pune -> Kanpur,230
+Mumbai,Nagpur,1,Mumbai -> Indore -> Nagpur,58
+Mumbai,Nagpur,2,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Nagpur,202
+Mumbai,Nagpur,3,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur,222
+Mumbai,Visakhapatnam,1,Mumbai -> Indore -> Visakhapatnam,111
+Mumbai,Visakhapatnam,2,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,127
+Mumbai,Visakhapatnam,3,Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad -> Pune -> Visakhapatnam,182
+Mumbai,Indore,1,Mumbai -> Indore,37
+Mumbai,Indore,2,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam -> Indore,201
+Mumbai,Indore,3,Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Nagpur -> Indore,223
+Delhi,Mumbai,1,Delhi -> Chennai -> Bengaluru -> Mumbai,75
+Delhi,Mumbai,2,Delhi -> Mumbai,91
+Delhi,Mumbai,3,Delhi -> Hyderabad -> Bengaluru -> Mumbai,110
+Delhi,Bengaluru,1,Delhi -> Chennai -> Bengaluru,51
+Delhi,Bengaluru,2,Delhi -> Hyderabad -> Bengaluru,86
+Delhi,Bengaluru,3,Delhi -> Mumbai -> Bengaluru,115
+Delhi,Chennai,1,Delhi -> Chennai,13
+Delhi,Chennai,2,Delhi -> Hyderabad -> Bengaluru -> Chennai,124
+Delhi,Chennai,3,Delhi -> Mumbai -> Bengaluru -> Chennai,153
+Delhi,Kolkata,1,Delhi -> Hyderabad -> Kolkata,72
+Delhi,Kolkata,2,Delhi -> Chennai -> Bengaluru -> Hyderabad -> Kolkata,119
+Delhi,Kolkata,3,Delhi -> Hyderabad -> Pune -> Kolkata,164
+Delhi,Hyderabad,1,Delhi -> Hyderabad,45
+Delhi,Hyderabad,2,Delhi -> Chennai -> Bengaluru -> Hyderabad,92
+Delhi,Hyderabad,3,Delhi -> Mumbai -> Bengaluru -> Hyderabad,156
+Delhi,Ahmedabad,1,Delhi -> Hyderabad -> Kolkata -> Ahmedabad,151
+Delhi,Ahmedabad,2,Delhi -> Chennai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad,198
+Delhi,Ahmedabad,3,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Ahmedabad,231
+Delhi,Pune,1,Delhi -> Hyderabad -> Pune,68
+Delhi,Pune,2,Delhi -> Chennai -> Bengaluru -> Hyderabad -> Pune,115
+Delhi,Pune,3,Delhi -> Hyderabad -> Kolkata -> Pune,168
+Delhi,Jaipur,1,Delhi -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,172
+Delhi,Jaipur,2,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur,210
+Delhi,Jaipur,3,Delhi -> Chennai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,219
+Delhi,Lucknow,1,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,146
+Delhi,Lucknow,2,Delhi -> Mumbai -> Indore -> Nagpur -> Lucknow,162
+Delhi,Lucknow,3,Delhi -> Hyderabad -> Pune -> Kanpur -> Lucknow,169
+Delhi,Kanpur,1,Delhi -> Hyderabad -> Pune -> Kanpur,155
+Delhi,Kanpur,2,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,160
+Delhi,Kanpur,3,Delhi -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,176
+Delhi,Nagpur,1,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur,133
+Delhi,Nagpur,2,Delhi -> Mumbai -> Indore -> Nagpur,149
+Delhi,Nagpur,3,Delhi -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,168
+Delhi,Visakhapatnam,1,Delhi -> Hyderabad -> Pune -> Visakhapatnam,107
+Delhi,Visakhapatnam,2,Delhi -> Chennai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,154
+Delhi,Visakhapatnam,3,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam,186
+Delhi,Indore,1,Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore,112
+Delhi,Indore,2,Delhi -> Mumbai -> Indore,128
+Delhi,Indore,3,Delhi -> Hyderabad -> Bengaluru -> Mumbai -> Indore,147
+Bengaluru,Mumbai,1,Bengaluru -> Mumbai,24
+Bengaluru,Mumbai,2,Bengaluru -> Chennai -> Delhi -> Mumbai,142
+Bengaluru,Mumbai,3,Bengaluru -> Hyderabad -> Delhi -> Mumbai,177
+Bengaluru,Delhi,1,Bengaluru -> Chennai -> Delhi,51
+Bengaluru,Delhi,2,Bengaluru -> Hyderabad -> Delhi,86
+Bengaluru,Delhi,3,Bengaluru -> Mumbai -> Delhi,115
+Bengaluru,Chennai,1,Bengaluru -> Chennai,38
+Bengaluru,Chennai,2,Bengaluru -> Hyderabad -> Delhi -> Chennai,99
+Bengaluru,Chennai,3,Bengaluru -> Mumbai -> Delhi -> Chennai,128
+Bengaluru,Kolkata,1,Bengaluru -> Hyderabad -> Kolkata,68
+Bengaluru,Kolkata,2,Bengaluru -> Chennai -> Delhi -> Hyderabad -> Kolkata,123
+Bengaluru,Kolkata,3,Bengaluru -> Hyderabad -> Pune -> Kolkata,160
+Bengaluru,Hyderabad,1,Bengaluru -> Hyderabad,41
+Bengaluru,Hyderabad,2,Bengaluru -> Chennai -> Delhi -> Hyderabad,96
+Bengaluru,Hyderabad,3,Bengaluru -> Mumbai -> Delhi -> Hyderabad,160
+Bengaluru,Ahmedabad,1,Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad,147
+Bengaluru,Ahmedabad,2,Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Ahmedabad,180
+Bengaluru,Ahmedabad,3,Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur -> Ahmedabad,180
+Bengaluru,Pune,1,Bengaluru -> Hyderabad -> Pune,64
+Bengaluru,Pune,2,Bengaluru -> Chennai -> Delhi -> Hyderabad -> Pune,119
+Bengaluru,Pune,3,Bengaluru -> Hyderabad -> Kolkata -> Pune,164
+Bengaluru,Jaipur,1,Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur,159
+Bengaluru,Jaipur,2,Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,168
+Bengaluru,Jaipur,3,Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Ahmedabad -> Jaipur,201
+Bengaluru,Lucknow,1,Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,95
+Bengaluru,Lucknow,2,Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow,165
+Bengaluru,Lucknow,3,Bengaluru -> Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow,211
+Bengaluru,Kanpur,1,Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,109
+Bengaluru,Kanpur,2,Bengaluru -> Hyderabad -> Pune -> Kanpur,151
+Bengaluru,Kanpur,3,Bengaluru -> Chennai -> Delhi -> Hyderabad -> Pune -> Kanpur,206
+Bengaluru,Nagpur,1,Bengaluru -> Mumbai -> Indore -> Nagpur,82
+Bengaluru,Nagpur,2,Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Nagpur,178
+Bengaluru,Nagpur,3,Bengaluru -> Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur,198
+Bengaluru,Visakhapatnam,1,Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,103
+Bengaluru,Visakhapatnam,2,Bengaluru -> Mumbai -> Indore -> Visakhapatnam,135
+Bengaluru,Visakhapatnam,3,Bengaluru -> Chennai -> Delhi -> Hyderabad -> Pune -> Visakhapatnam,158
+Bengaluru,Indore,1,Bengaluru -> Mumbai -> Indore,61
+Bengaluru,Indore,2,Bengaluru -> Hyderabad -> Pune -> Visakhapatnam -> Indore,177
+Bengaluru,Indore,3,Bengaluru -> Chennai -> Delhi -> Mumbai -> Indore,179
+Chennai,Mumbai,1,Chennai -> Bengaluru -> Mumbai,62
+Chennai,Mumbai,2,Chennai -> Delhi -> Mumbai,104
+Chennai,Mumbai,3,Chennai -> Delhi -> Hyderabad -> Bengaluru -> Mumbai,123
+Chennai,Delhi,1,Chennai -> Delhi,13
+Chennai,Delhi,2,Chennai -> Bengaluru -> Hyderabad -> Delhi,124
+Chennai,Delhi,3,Chennai -> Bengaluru -> Mumbai -> Delhi,153
+Chennai,Bengaluru,1,Chennai -> Bengaluru,38
+Chennai,Bengaluru,2,Chennai -> Delhi -> Hyderabad -> Bengaluru,99
+Chennai,Bengaluru,3,Chennai -> Delhi -> Mumbai -> Bengaluru,128
+Chennai,Kolkata,1,Chennai -> Delhi -> Hyderabad -> Kolkata,85
+Chennai,Kolkata,2,Chennai -> Bengaluru -> Hyderabad -> Kolkata,106
+Chennai,Kolkata,3,Chennai -> Delhi -> Hyderabad -> Pune -> Kolkata,177
+Chennai,Hyderabad,1,Chennai -> Delhi -> Hyderabad,58
+Chennai,Hyderabad,2,Chennai -> Bengaluru -> Hyderabad,79
+Chennai,Hyderabad,3,Chennai -> Delhi -> Mumbai -> Bengaluru -> Hyderabad,169
+Chennai,Ahmedabad,1,Chennai -> Delhi -> Hyderabad -> Kolkata -> Ahmedabad,164
+Chennai,Ahmedabad,2,Chennai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad,185
+Chennai,Ahmedabad,3,Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Ahmedabad,218
+Chennai,Pune,1,Chennai -> Delhi -> Hyderabad -> Pune,81
+Chennai,Pune,2,Chennai -> Bengaluru -> Hyderabad -> Pune,102
+Chennai,Pune,3,Chennai -> Delhi -> Hyderabad -> Kolkata -> Pune,181
+Chennai,Jaipur,1,Chennai -> Delhi -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,185
+Chennai,Jaipur,2,Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur,197
+Chennai,Jaipur,3,Chennai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,206
+Chennai,Lucknow,1,Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,133
+Chennai,Lucknow,2,Chennai -> Delhi -> Mumbai -> Indore -> Nagpur -> Lucknow,175
+Chennai,Lucknow,3,Chennai -> Delhi -> Hyderabad -> Pune -> Kanpur -> Lucknow,182
+Chennai,Kanpur,1,Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,147
+Chennai,Kanpur,2,Chennai -> Delhi -> Hyderabad -> Pune -> Kanpur,168
+Chennai,Kanpur,3,Chennai -> Bengaluru -> Hyderabad -> Pune -> Kanpur,189
+Chennai,Nagpur,1,Chennai -> Bengaluru -> Mumbai -> Indore -> Nagpur,120
+Chennai,Nagpur,2,Chennai -> Delhi -> Mumbai -> Indore -> Nagpur,162
+Chennai,Nagpur,3,Chennai -> Delhi -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,181
+Chennai,Visakhapatnam,1,Chennai -> Delhi -> Hyderabad -> Pune -> Visakhapatnam,120
+Chennai,Visakhapatnam,2,Chennai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,141
+Chennai,Visakhapatnam,3,Chennai -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam,173
+Chennai,Indore,1,Chennai -> Bengaluru -> Mumbai -> Indore,99
+Chennai,Indore,2,Chennai -> Delhi -> Mumbai -> Indore,141
+Chennai,Indore,3,Chennai -> Delhi -> Hyderabad -> Bengaluru -> Mumbai -> Indore,160
+Kolkata,Mumbai,1,Kolkata -> Hyderabad -> Bengaluru -> Mumbai,92
+Kolkata,Mumbai,2,Kolkata -> Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai,147
+Kolkata,Mumbai,3,Kolkata -> Hyderabad -> Delhi -> Mumbai,163
+Kolkata,Delhi,1,Kolkata -> Hyderabad -> Delhi,72
+Kolkata,Delhi,2,Kolkata -> Hyderabad -> Bengaluru -> Chennai -> Delhi,119
+Kolkata,Delhi,3,Kolkata -> Pune -> Hyderabad -> Delhi,164
+Kolkata,Bengaluru,1,Kolkata -> Hyderabad -> Bengaluru,68
+Kolkata,Bengaluru,2,Kolkata -> Hyderabad -> Delhi -> Chennai -> Bengaluru,123
+Kolkata,Bengaluru,3,Kolkata -> Pune -> Hyderabad -> Bengaluru,160
+Kolkata,Chennai,1,Kolkata -> Hyderabad -> Delhi -> Chennai,85
+Kolkata,Chennai,2,Kolkata -> Hyderabad -> Bengaluru -> Chennai,106
+Kolkata,Chennai,3,Kolkata -> Pune -> Hyderabad -> Delhi -> Chennai,177
+Kolkata,Hyderabad,1,Kolkata -> Hyderabad,27
+Kolkata,Hyderabad,2,Kolkata -> Pune -> Hyderabad,119
+Kolkata,Hyderabad,3,Kolkata -> Ahmedabad -> Lucknow -> Kanpur -> Pune -> Hyderabad,288
+Kolkata,Ahmedabad,1,Kolkata -> Ahmedabad,79
+Kolkata,Ahmedabad,2,Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Ahmedabad,236
+Kolkata,Ahmedabad,3,Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Jaipur -> Ahmedabad,236
+Kolkata,Pune,1,Kolkata -> Hyderabad -> Pune,50
+Kolkata,Pune,2,Kolkata -> Pune,96
+Kolkata,Pune,3,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam -> Pune,242
+Kolkata,Jaipur,1,Kolkata -> Ahmedabad -> Jaipur,100
+Kolkata,Jaipur,2,Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Jaipur,215
+Kolkata,Jaipur,3,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur,227
+Kolkata,Lucknow,1,Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow,151
+Kolkata,Lucknow,2,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,163
+Kolkata,Lucknow,3,Kolkata -> Ahmedabad -> Lucknow,164
+Kolkata,Kanpur,1,Kolkata -> Hyderabad -> Pune -> Kanpur,137
+Kolkata,Kanpur,2,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,177
+Kolkata,Kanpur,3,Kolkata -> Ahmedabad -> Lucknow -> Kanpur,178
+Kolkata,Nagpur,1,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,150
+Kolkata,Nagpur,2,Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Nagpur,164
+Kolkata,Nagpur,3,Kolkata -> Ahmedabad -> Lucknow -> Nagpur,177
+Kolkata,Visakhapatnam,1,Kolkata -> Hyderabad -> Pune -> Visakhapatnam,89
+Kolkata,Visakhapatnam,2,Kolkata -> Pune -> Visakhapatnam,135
+Kolkata,Visakhapatnam,3,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam,203
+Kolkata,Indore,1,Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore,129
+Kolkata,Indore,2,Kolkata -> Hyderabad -> Pune -> Visakhapatnam -> Indore,163
+Kolkata,Indore,3,Kolkata -> Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore,184
+Hyderabad,Mumbai,1,Hyderabad -> Bengaluru -> Mumbai,65
+Hyderabad,Mumbai,2,Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai,120
+Hyderabad,Mumbai,3,Hyderabad -> Delhi -> Mumbai,136
+Hyderabad,Delhi,1,Hyderabad -> Delhi,45
+Hyderabad,Delhi,2,Hyderabad -> Bengaluru -> Chennai -> Delhi,92
+Hyderabad,Delhi,3,Hyderabad -> Bengaluru -> Mumbai -> Delhi,156
+Hyderabad,Bengaluru,1,Hyderabad -> Bengaluru,41
+Hyderabad,Bengaluru,2,Hyderabad -> Delhi -> Chennai -> Bengaluru,96
+Hyderabad,Bengaluru,3,Hyderabad -> Delhi -> Mumbai -> Bengaluru,160
+Hyderabad,Chennai,1,Hyderabad -> Delhi -> Chennai,58
+Hyderabad,Chennai,2,Hyderabad -> Bengaluru -> Chennai,79
+Hyderabad,Chennai,3,Hyderabad -> Bengaluru -> Mumbai -> Delhi -> Chennai,169
+Hyderabad,Kolkata,1,Hyderabad -> Kolkata,27
+Hyderabad,Kolkata,2,Hyderabad -> Pune -> Kolkata,119
+Hyderabad,Kolkata,3,Hyderabad -> Pune -> Kanpur -> Lucknow -> Ahmedabad -> Kolkata,288
+Hyderabad,Ahmedabad,1,Hyderabad -> Kolkata -> Ahmedabad,106
+Hyderabad,Ahmedabad,2,Hyderabad -> Pune -> Kolkata -> Ahmedabad,198
+Hyderabad,Ahmedabad,3,Hyderabad -> Pune -> Kanpur -> Lucknow -> Ahmedabad,209
+Hyderabad,Pune,1,Hyderabad -> Pune,23
+Hyderabad,Pune,2,Hyderabad -> Kolkata -> Pune,123
+Hyderabad,Pune,3,Hyderabad -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam -> Pune,215
+Hyderabad,Jaipur,1,Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,127
+Hyderabad,Jaipur,2,Hyderabad -> Pune -> Kanpur -> Lucknow -> Jaipur,188
+Hyderabad,Jaipur,3,Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Jaipur,200
+Hyderabad,Lucknow,1,Hyderabad -> Pune -> Kanpur -> Lucknow,124
+Hyderabad,Lucknow,2,Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,136
+Hyderabad,Lucknow,3,Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow,170
+Hyderabad,Kanpur,1,Hyderabad -> Pune -> Kanpur,110
+Hyderabad,Kanpur,2,Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,150
+Hyderabad,Kanpur,3,Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Kanpur,184
+Hyderabad,Nagpur,1,Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,123
+Hyderabad,Nagpur,2,Hyderabad -> Pune -> Kanpur -> Lucknow -> Nagpur,137
+Hyderabad,Nagpur,3,Hyderabad -> Pune -> Visakhapatnam -> Indore -> Nagpur,157
+Hyderabad,Visakhapatnam,1,Hyderabad -> Pune -> Visakhapatnam,62
+Hyderabad,Visakhapatnam,2,Hyderabad -> Kolkata -> Pune -> Visakhapatnam,162
+Hyderabad,Visakhapatnam,3,Hyderabad -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam,176
+Hyderabad,Indore,1,Hyderabad -> Bengaluru -> Mumbai -> Indore,102
+Hyderabad,Indore,2,Hyderabad -> Pune -> Visakhapatnam -> Indore,136
+Hyderabad,Indore,3,Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai -> Indore,157
+Ahmedabad,Mumbai,1,Ahmedabad -> Lucknow -> Nagpur -> Indore -> Mumbai,156
+Ahmedabad,Mumbai,2,Ahmedabad -> Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai,156
+Ahmedabad,Mumbai,3,Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Mumbai,171
+Ahmedabad,Delhi,1,Ahmedabad -> Kolkata -> Hyderabad -> Delhi,151
+Ahmedabad,Delhi,2,Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Chennai -> Delhi,198
+Ahmedabad,Delhi,3,Ahmedabad -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,231
+Ahmedabad,Bengaluru,1,Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru,147
+Ahmedabad,Bengaluru,2,Ahmedabad -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru,180
+Ahmedabad,Bengaluru,3,Ahmedabad -> Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru,180
+Ahmedabad,Chennai,1,Ahmedabad -> Kolkata -> Hyderabad -> Delhi -> Chennai,164
+Ahmedabad,Chennai,2,Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Chennai,185
+Ahmedabad,Chennai,3,Ahmedabad -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai,218
+Ahmedabad,Kolkata,1,Ahmedabad -> Kolkata,79
+Ahmedabad,Kolkata,2,Ahmedabad -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata,236
+Ahmedabad,Kolkata,3,Ahmedabad -> Jaipur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata,236
+Ahmedabad,Hyderabad,1,Ahmedabad -> Kolkata -> Hyderabad,106
+Ahmedabad,Hyderabad,2,Ahmedabad -> Kolkata -> Pune -> Hyderabad,198
+Ahmedabad,Hyderabad,3,Ahmedabad -> Lucknow -> Kanpur -> Pune -> Hyderabad,209
+Ahmedabad,Pune,1,Ahmedabad -> Kolkata -> Hyderabad -> Pune,129
+Ahmedabad,Pune,2,Ahmedabad -> Kolkata -> Pune,175
+Ahmedabad,Pune,3,Ahmedabad -> Lucknow -> Kanpur -> Pune,186
+Ahmedabad,Jaipur,1,Ahmedabad -> Jaipur,21
+Ahmedabad,Jaipur,2,Ahmedabad -> Lucknow -> Jaipur,149
+Ahmedabad,Jaipur,3,Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Jaipur,294
+Ahmedabad,Lucknow,1,Ahmedabad -> Lucknow,85
+Ahmedabad,Lucknow,2,Ahmedabad -> Jaipur -> Lucknow,85
+Ahmedabad,Lucknow,3,Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow,230
+Ahmedabad,Kanpur,1,Ahmedabad -> Lucknow -> Kanpur,99
+Ahmedabad,Kanpur,2,Ahmedabad -> Jaipur -> Lucknow -> Kanpur,99
+Ahmedabad,Kanpur,3,Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Kanpur,216
+Ahmedabad,Nagpur,1,Ahmedabad -> Lucknow -> Nagpur,98
+Ahmedabad,Nagpur,2,Ahmedabad -> Jaipur -> Lucknow -> Nagpur,98
+Ahmedabad,Nagpur,3,Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,229
+Ahmedabad,Visakhapatnam,1,Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Visakhapatnam,168
+Ahmedabad,Visakhapatnam,2,Ahmedabad -> Lucknow -> Nagpur -> Indore -> Visakhapatnam,193
+Ahmedabad,Visakhapatnam,3,Ahmedabad -> Jaipur -> Lucknow -> Nagpur -> Indore -> Visakhapatnam,193
+Ahmedabad,Indore,1,Ahmedabad -> Lucknow -> Nagpur -> Indore,119
+Ahmedabad,Indore,2,Ahmedabad -> Jaipur -> Lucknow -> Nagpur -> Indore,119
+Ahmedabad,Indore,3,Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore,208
+Pune,Mumbai,1,Pune -> Hyderabad -> Bengaluru -> Mumbai,88
+Pune,Mumbai,2,Pune -> Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai,143
+Pune,Mumbai,3,Pune -> Visakhapatnam -> Indore -> Mumbai,150
+Pune,Delhi,1,Pune -> Hyderabad -> Delhi,68
+Pune,Delhi,2,Pune -> Hyderabad -> Bengaluru -> Chennai -> Delhi,115
+Pune,Delhi,3,Pune -> Kolkata -> Hyderabad -> Delhi,168
+Pune,Bengaluru,1,Pune -> Hyderabad -> Bengaluru,64
+Pune,Bengaluru,2,Pune -> Hyderabad -> Delhi -> Chennai -> Bengaluru,119
+Pune,Bengaluru,3,Pune -> Kolkata -> Hyderabad -> Bengaluru,164
+Pune,Chennai,1,Pune -> Hyderabad -> Delhi -> Chennai,81
+Pune,Chennai,2,Pune -> Hyderabad -> Bengaluru -> Chennai,102
+Pune,Chennai,3,Pune -> Kolkata -> Hyderabad -> Delhi -> Chennai,181
+Pune,Kolkata,1,Pune -> Hyderabad -> Kolkata,50
+Pune,Kolkata,2,Pune -> Kolkata,96
+Pune,Kolkata,3,Pune -> Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,242
+Pune,Hyderabad,1,Pune -> Hyderabad,23
+Pune,Hyderabad,2,Pune -> Kolkata -> Hyderabad,123
+Pune,Hyderabad,3,Pune -> Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Hyderabad,215
+Pune,Ahmedabad,1,Pune -> Hyderabad -> Kolkata -> Ahmedabad,129
+Pune,Ahmedabad,2,Pune -> Kolkata -> Ahmedabad,175
+Pune,Ahmedabad,3,Pune -> Kanpur -> Lucknow -> Ahmedabad,186
+Pune,Jaipur,1,Pune -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,150
+Pune,Jaipur,2,Pune -> Kanpur -> Lucknow -> Jaipur,165
+Pune,Jaipur,3,Pune -> Kolkata -> Ahmedabad -> Jaipur,196
+Pune,Lucknow,1,Pune -> Kanpur -> Lucknow,101
+Pune,Lucknow,2,Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow,147
+Pune,Lucknow,3,Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,159
+Pune,Kanpur,1,Pune -> Kanpur,87
+Pune,Kanpur,2,Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Kanpur,161
+Pune,Kanpur,3,Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,173
+Pune,Nagpur,1,Pune -> Kanpur -> Lucknow -> Nagpur,114
+Pune,Nagpur,2,Pune -> Visakhapatnam -> Indore -> Nagpur,134
+Pune,Nagpur,3,Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,146
+Pune,Visakhapatnam,1,Pune -> Visakhapatnam,39
+Pune,Visakhapatnam,2,Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Visakhapatnam,199
+Pune,Visakhapatnam,3,Pune -> Kanpur -> Lucknow -> Nagpur -> Indore -> Visakhapatnam,209
+Pune,Indore,1,Pune -> Visakhapatnam -> Indore,113
+Pune,Indore,2,Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore,125
+Pune,Indore,3,Pune -> Kanpur -> Lucknow -> Nagpur -> Indore,135
+Jaipur,Mumbai,1,Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai,135
+Jaipur,Mumbai,2,Jaipur -> Ahmedabad -> Lucknow -> Nagpur -> Indore -> Mumbai,177
+Jaipur,Mumbai,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Mumbai,192
+Jaipur,Delhi,1,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Delhi,172
+Jaipur,Delhi,2,Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,210
+Jaipur,Delhi,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Chennai -> Delhi,219
+Jaipur,Bengaluru,1,Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru,159
+Jaipur,Bengaluru,2,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru,168
+Jaipur,Bengaluru,3,Jaipur -> Ahmedabad -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru,201
+Jaipur,Chennai,1,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Delhi -> Chennai,185
+Jaipur,Chennai,2,Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai,197
+Jaipur,Chennai,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Chennai,206
+Jaipur,Kolkata,1,Jaipur -> Ahmedabad -> Kolkata,100
+Jaipur,Kolkata,2,Jaipur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata,215
+Jaipur,Kolkata,3,Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,227
+Jaipur,Hyderabad,1,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad,127
+Jaipur,Hyderabad,2,Jaipur -> Lucknow -> Kanpur -> Pune -> Hyderabad,188
+Jaipur,Hyderabad,3,Jaipur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad,200
+Jaipur,Ahmedabad,1,Jaipur -> Ahmedabad,21
+Jaipur,Ahmedabad,2,Jaipur -> Lucknow -> Ahmedabad,149
+Jaipur,Ahmedabad,3,Jaipur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata -> Ahmedabad,294
+Jaipur,Pune,1,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Pune,150
+Jaipur,Pune,2,Jaipur -> Lucknow -> Kanpur -> Pune,165
+Jaipur,Pune,3,Jaipur -> Ahmedabad -> Kolkata -> Pune,196
+Jaipur,Lucknow,1,Jaipur -> Lucknow,64
+Jaipur,Lucknow,2,Jaipur -> Ahmedabad -> Lucknow,106
+Jaipur,Lucknow,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Kanpur -> Lucknow,251
+Jaipur,Kanpur,1,Jaipur -> Lucknow -> Kanpur,78
+Jaipur,Kanpur,2,Jaipur -> Ahmedabad -> Lucknow -> Kanpur,120
+Jaipur,Kanpur,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Kanpur,237
+Jaipur,Nagpur,1,Jaipur -> Lucknow -> Nagpur,77
+Jaipur,Nagpur,2,Jaipur -> Ahmedabad -> Lucknow -> Nagpur,119
+Jaipur,Nagpur,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,250
+Jaipur,Visakhapatnam,1,Jaipur -> Lucknow -> Nagpur -> Indore -> Visakhapatnam,172
+Jaipur,Visakhapatnam,2,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Pune -> Visakhapatnam,189
+Jaipur,Visakhapatnam,3,Jaipur -> Lucknow -> Kanpur -> Pune -> Visakhapatnam,204
+Jaipur,Indore,1,Jaipur -> Lucknow -> Nagpur -> Indore,98
+Jaipur,Indore,2,Jaipur -> Ahmedabad -> Lucknow -> Nagpur -> Indore,140
+Jaipur,Indore,3,Jaipur -> Ahmedabad -> Kolkata -> Hyderabad -> Bengaluru -> Mumbai -> Indore,229
+Lucknow,Mumbai,1,Lucknow -> Nagpur -> Indore -> Mumbai,71
+Lucknow,Mumbai,2,Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai,189
+Lucknow,Mumbai,3,Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai,235
+Lucknow,Delhi,1,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,146
+Lucknow,Delhi,2,Lucknow -> Nagpur -> Indore -> Mumbai -> Delhi,162
+Lucknow,Delhi,3,Lucknow -> Kanpur -> Pune -> Hyderabad -> Delhi,169
+Lucknow,Bengaluru,1,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru,95
+Lucknow,Bengaluru,2,Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru,165
+Lucknow,Bengaluru,3,Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad -> Bengaluru,211
+Lucknow,Chennai,1,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai,133
+Lucknow,Chennai,2,Lucknow -> Nagpur -> Indore -> Mumbai -> Delhi -> Chennai,175
+Lucknow,Chennai,3,Lucknow -> Kanpur -> Pune -> Hyderabad -> Delhi -> Chennai,182
+Lucknow,Kolkata,1,Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata,151
+Lucknow,Kolkata,2,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,163
+Lucknow,Kolkata,3,Lucknow -> Ahmedabad -> Kolkata,164
+Lucknow,Hyderabad,1,Lucknow -> Kanpur -> Pune -> Hyderabad,124
+Lucknow,Hyderabad,2,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad,136
+Lucknow,Hyderabad,3,Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad,170
+Lucknow,Ahmedabad,1,Lucknow -> Ahmedabad,85
+Lucknow,Ahmedabad,2,Lucknow -> Jaipur -> Ahmedabad,85
+Lucknow,Ahmedabad,3,Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata -> Ahmedabad,230
+Lucknow,Pune,1,Lucknow -> Kanpur -> Pune,101
+Lucknow,Pune,2,Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune,147
+Lucknow,Pune,3,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune,159
+Lucknow,Jaipur,1,Lucknow -> Jaipur,64
+Lucknow,Jaipur,2,Lucknow -> Ahmedabad -> Jaipur,106
+Lucknow,Jaipur,3,Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,251
+Lucknow,Kanpur,1,Lucknow -> Kanpur,14
+Lucknow,Kanpur,2,Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune -> Kanpur,234
+Lucknow,Kanpur,3,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur,246
+Lucknow,Nagpur,1,Lucknow -> Nagpur,13
+Lucknow,Nagpur,2,Lucknow -> Kanpur -> Pune -> Visakhapatnam -> Indore -> Nagpur,235
+Lucknow,Nagpur,3,Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,247
+Lucknow,Visakhapatnam,1,Lucknow -> Nagpur -> Indore -> Visakhapatnam,108
+Lucknow,Visakhapatnam,2,Lucknow -> Kanpur -> Pune -> Visakhapatnam,140
+Lucknow,Visakhapatnam,3,Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,198
+Lucknow,Indore,1,Lucknow -> Nagpur -> Indore,34
+Lucknow,Indore,2,Lucknow -> Kanpur -> Pune -> Visakhapatnam -> Indore,214
+Lucknow,Indore,3,Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore,226
+Kanpur,Mumbai,1,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai,85
+Kanpur,Mumbai,2,Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai,175
+Kanpur,Mumbai,3,Kanpur -> Pune -> Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai,230
+Kanpur,Delhi,1,Kanpur -> Pune -> Hyderabad -> Delhi,155
+Kanpur,Delhi,2,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,160
+Kanpur,Delhi,3,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Delhi,176
+Kanpur,Bengaluru,1,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru,109
+Kanpur,Bengaluru,2,Kanpur -> Pune -> Hyderabad -> Bengaluru,151
+Kanpur,Bengaluru,3,Kanpur -> Pune -> Hyderabad -> Delhi -> Chennai -> Bengaluru,206
+Kanpur,Chennai,1,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai,147
+Kanpur,Chennai,2,Kanpur -> Pune -> Hyderabad -> Delhi -> Chennai,168
+Kanpur,Chennai,3,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Delhi -> Chennai,189
+Kanpur,Kolkata,1,Kanpur -> Pune -> Hyderabad -> Kolkata,137
+Kanpur,Kolkata,2,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,177
+Kanpur,Kolkata,3,Kanpur -> Lucknow -> Ahmedabad -> Kolkata,178
+Kanpur,Hyderabad,1,Kanpur -> Pune -> Hyderabad,110
+Kanpur,Hyderabad,2,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad,150
+Kanpur,Hyderabad,3,Kanpur -> Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad,184
+Kanpur,Ahmedabad,1,Kanpur -> Lucknow -> Ahmedabad,99
+Kanpur,Ahmedabad,2,Kanpur -> Lucknow -> Jaipur -> Ahmedabad,99
+Kanpur,Ahmedabad,3,Kanpur -> Pune -> Hyderabad -> Kolkata -> Ahmedabad,216
+Kanpur,Pune,1,Kanpur -> Pune,87
+Kanpur,Pune,2,Kanpur -> Lucknow -> Nagpur -> Indore -> Visakhapatnam -> Pune,161
+Kanpur,Pune,3,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune,173
+Kanpur,Jaipur,1,Kanpur -> Lucknow -> Jaipur,78
+Kanpur,Jaipur,2,Kanpur -> Lucknow -> Ahmedabad -> Jaipur,120
+Kanpur,Jaipur,3,Kanpur -> Pune -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,237
+Kanpur,Lucknow,1,Kanpur -> Lucknow,14
+Kanpur,Lucknow,2,Kanpur -> Pune -> Visakhapatnam -> Indore -> Nagpur -> Lucknow,234
+Kanpur,Lucknow,3,Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,246
+Kanpur,Nagpur,1,Kanpur -> Lucknow -> Nagpur,27
+Kanpur,Nagpur,2,Kanpur -> Pune -> Visakhapatnam -> Indore -> Nagpur,221
+Kanpur,Nagpur,3,Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,233
+Kanpur,Visakhapatnam,1,Kanpur -> Lucknow -> Nagpur -> Indore -> Visakhapatnam,122
+Kanpur,Visakhapatnam,2,Kanpur -> Pune -> Visakhapatnam,126
+Kanpur,Visakhapatnam,3,Kanpur -> Lucknow -> Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,212
+Kanpur,Indore,1,Kanpur -> Lucknow -> Nagpur -> Indore,48
+Kanpur,Indore,2,Kanpur -> Pune -> Visakhapatnam -> Indore,200
+Kanpur,Indore,3,Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore,212
+Nagpur,Mumbai,1,Nagpur -> Indore -> Mumbai,58
+Nagpur,Mumbai,2,Nagpur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai,202
+Nagpur,Mumbai,3,Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai,222
+Nagpur,Delhi,1,Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,133
+Nagpur,Delhi,2,Nagpur -> Indore -> Mumbai -> Delhi,149
+Nagpur,Delhi,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Delhi,168
+Nagpur,Bengaluru,1,Nagpur -> Indore -> Mumbai -> Bengaluru,82
+Nagpur,Bengaluru,2,Nagpur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru,178
+Nagpur,Bengaluru,3,Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad -> Bengaluru,198
+Nagpur,Chennai,1,Nagpur -> Indore -> Mumbai -> Bengaluru -> Chennai,120
+Nagpur,Chennai,2,Nagpur -> Indore -> Mumbai -> Delhi -> Chennai,162
+Nagpur,Chennai,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Delhi -> Chennai,181
+Nagpur,Kolkata,1,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,150
+Nagpur,Kolkata,2,Nagpur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Kolkata,164
+Nagpur,Kolkata,3,Nagpur -> Lucknow -> Ahmedabad -> Kolkata,177
+Nagpur,Hyderabad,1,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad,123
+Nagpur,Hyderabad,2,Nagpur -> Lucknow -> Kanpur -> Pune -> Hyderabad,137
+Nagpur,Hyderabad,3,Nagpur -> Indore -> Visakhapatnam -> Pune -> Hyderabad,157
+Nagpur,Ahmedabad,1,Nagpur -> Lucknow -> Ahmedabad,98
+Nagpur,Ahmedabad,2,Nagpur -> Lucknow -> Jaipur -> Ahmedabad,98
+Nagpur,Ahmedabad,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad,229
+Nagpur,Pune,1,Nagpur -> Lucknow -> Kanpur -> Pune,114
+Nagpur,Pune,2,Nagpur -> Indore -> Visakhapatnam -> Pune,134
+Nagpur,Pune,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune,146
+Nagpur,Jaipur,1,Nagpur -> Lucknow -> Jaipur,77
+Nagpur,Jaipur,2,Nagpur -> Lucknow -> Ahmedabad -> Jaipur,119
+Nagpur,Jaipur,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,250
+Nagpur,Lucknow,1,Nagpur -> Lucknow,13
+Nagpur,Lucknow,2,Nagpur -> Indore -> Visakhapatnam -> Pune -> Kanpur -> Lucknow,235
+Nagpur,Lucknow,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow,247
+Nagpur,Kanpur,1,Nagpur -> Lucknow -> Kanpur,27
+Nagpur,Kanpur,2,Nagpur -> Indore -> Visakhapatnam -> Pune -> Kanpur,221
+Nagpur,Kanpur,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur,233
+Nagpur,Visakhapatnam,1,Nagpur -> Indore -> Visakhapatnam,95
+Nagpur,Visakhapatnam,2,Nagpur -> Lucknow -> Kanpur -> Pune -> Visakhapatnam,153
+Nagpur,Visakhapatnam,3,Nagpur -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,185
+Nagpur,Indore,1,Nagpur -> Indore,21
+Nagpur,Indore,2,Nagpur -> Lucknow -> Kanpur -> Pune -> Visakhapatnam -> Indore,227
+Nagpur,Indore,3,Nagpur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore,239
+Visakhapatnam,Mumbai,1,Visakhapatnam -> Indore -> Mumbai,111
+Visakhapatnam,Mumbai,2,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai,127
+Visakhapatnam,Mumbai,3,Visakhapatnam -> Pune -> Hyderabad -> Delhi -> Chennai -> Bengaluru -> Mumbai,182
+Visakhapatnam,Delhi,1,Visakhapatnam -> Pune -> Hyderabad -> Delhi,107
+Visakhapatnam,Delhi,2,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Chennai -> Delhi,154
+Visakhapatnam,Delhi,3,Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,186
+Visakhapatnam,Bengaluru,1,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru,103
+Visakhapatnam,Bengaluru,2,Visakhapatnam -> Indore -> Mumbai -> Bengaluru,135
+Visakhapatnam,Bengaluru,3,Visakhapatnam -> Pune -> Hyderabad -> Delhi -> Chennai -> Bengaluru,158
+Visakhapatnam,Chennai,1,Visakhapatnam -> Pune -> Hyderabad -> Delhi -> Chennai,120
+Visakhapatnam,Chennai,2,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Chennai,141
+Visakhapatnam,Chennai,3,Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Chennai,173
+Visakhapatnam,Kolkata,1,Visakhapatnam -> Pune -> Hyderabad -> Kolkata,89
+Visakhapatnam,Kolkata,2,Visakhapatnam -> Pune -> Kolkata,135
+Visakhapatnam,Kolkata,3,Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,203
+Visakhapatnam,Hyderabad,1,Visakhapatnam -> Pune -> Hyderabad,62
+Visakhapatnam,Hyderabad,2,Visakhapatnam -> Pune -> Kolkata -> Hyderabad,162
+Visakhapatnam,Hyderabad,3,Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Hyderabad,176
+Visakhapatnam,Ahmedabad,1,Visakhapatnam -> Pune -> Hyderabad -> Kolkata -> Ahmedabad,168
+Visakhapatnam,Ahmedabad,2,Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Ahmedabad,193
+Visakhapatnam,Ahmedabad,3,Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Jaipur -> Ahmedabad,193
+Visakhapatnam,Pune,1,Visakhapatnam -> Pune,39
+Visakhapatnam,Pune,2,Visakhapatnam -> Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune,199
+Visakhapatnam,Pune,3,Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Kanpur -> Pune,209
+Visakhapatnam,Jaipur,1,Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Jaipur,172
+Visakhapatnam,Jaipur,2,Visakhapatnam -> Pune -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,189
+Visakhapatnam,Jaipur,3,Visakhapatnam -> Pune -> Kanpur -> Lucknow -> Jaipur,204
+Visakhapatnam,Lucknow,1,Visakhapatnam -> Indore -> Nagpur -> Lucknow,108
+Visakhapatnam,Lucknow,2,Visakhapatnam -> Pune -> Kanpur -> Lucknow,140
+Visakhapatnam,Lucknow,3,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow,198
+Visakhapatnam,Kanpur,1,Visakhapatnam -> Indore -> Nagpur -> Lucknow -> Kanpur,122
+Visakhapatnam,Kanpur,2,Visakhapatnam -> Pune -> Kanpur,126
+Visakhapatnam,Kanpur,3,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur -> Lucknow -> Kanpur,212
+Visakhapatnam,Nagpur,1,Visakhapatnam -> Indore -> Nagpur,95
+Visakhapatnam,Nagpur,2,Visakhapatnam -> Pune -> Kanpur -> Lucknow -> Nagpur,153
+Visakhapatnam,Nagpur,3,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore -> Nagpur,185
+Visakhapatnam,Indore,1,Visakhapatnam -> Indore,74
+Visakhapatnam,Indore,2,Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai -> Indore,164
+Visakhapatnam,Indore,3,Visakhapatnam -> Pune -> Kanpur -> Lucknow -> Nagpur -> Indore,174
+Indore,Mumbai,1,Indore -> Mumbai,37
+Indore,Mumbai,2,Indore -> Visakhapatnam -> Pune -> Hyderabad -> Bengaluru -> Mumbai,201
+Indore,Mumbai,3,Indore -> Nagpur -> Lucknow -> Kanpur -> Pune -> Hyderabad -> Bengaluru -> Mumbai,223
+Indore,Delhi,1,Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi,112
+Indore,Delhi,2,Indore -> Mumbai -> Delhi,128
+Indore,Delhi,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Delhi,147
+Indore,Bengaluru,1,Indore -> Mumbai -> Bengaluru,61
+Indore,Bengaluru,2,Indore -> Visakhapatnam -> Pune -> Hyderabad -> Bengaluru,177
+Indore,Bengaluru,3,Indore -> Mumbai -> Delhi -> Chennai -> Bengaluru,179
+Indore,Chennai,1,Indore -> Mumbai -> Bengaluru -> Chennai,99
+Indore,Chennai,2,Indore -> Mumbai -> Delhi -> Chennai,141
+Indore,Chennai,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Delhi -> Chennai,160
+Indore,Kolkata,1,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata,129
+Indore,Kolkata,2,Indore -> Visakhapatnam -> Pune -> Hyderabad -> Kolkata,163
+Indore,Kolkata,3,Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad -> Kolkata,184
+Indore,Hyderabad,1,Indore -> Mumbai -> Bengaluru -> Hyderabad,102
+Indore,Hyderabad,2,Indore -> Visakhapatnam -> Pune -> Hyderabad,136
+Indore,Hyderabad,3,Indore -> Mumbai -> Bengaluru -> Chennai -> Delhi -> Hyderabad,157
+Indore,Ahmedabad,1,Indore -> Nagpur -> Lucknow -> Ahmedabad,119
+Indore,Ahmedabad,2,Indore -> Nagpur -> Lucknow -> Jaipur -> Ahmedabad,119
+Indore,Ahmedabad,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad,208
+Indore,Pune,1,Indore -> Visakhapatnam -> Pune,113
+Indore,Pune,2,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune,125
+Indore,Pune,3,Indore -> Nagpur -> Lucknow -> Kanpur -> Pune,135
+Indore,Jaipur,1,Indore -> Nagpur -> Lucknow -> Jaipur,98
+Indore,Jaipur,2,Indore -> Nagpur -> Lucknow -> Ahmedabad -> Jaipur,140
+Indore,Jaipur,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Kolkata -> Ahmedabad -> Jaipur,229
+Indore,Lucknow,1,Indore -> Nagpur -> Lucknow,34
+Indore,Lucknow,2,Indore -> Visakhapatnam -> Pune -> Kanpur -> Lucknow,214
+Indore,Lucknow,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow,226
+Indore,Kanpur,1,Indore -> Nagpur -> Lucknow -> Kanpur,48
+Indore,Kanpur,2,Indore -> Visakhapatnam -> Pune -> Kanpur,200
+Indore,Kanpur,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur,212
+Indore,Nagpur,1,Indore -> Nagpur,21
+Indore,Nagpur,2,Indore -> Visakhapatnam -> Pune -> Kanpur -> Lucknow -> Nagpur,227
+Indore,Nagpur,3,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Kanpur -> Lucknow -> Nagpur,239
+Indore,Visakhapatnam,1,Indore -> Visakhapatnam,74
+Indore,Visakhapatnam,2,Indore -> Mumbai -> Bengaluru -> Hyderabad -> Pune -> Visakhapatnam,164
+Indore,Visakhapatnam,3,Indore -> Nagpur -> Lucknow -> Kanpur -> Pune -> Visakhapatnam,174
